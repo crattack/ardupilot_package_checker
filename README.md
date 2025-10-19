@@ -1,4 +1,4 @@
-# 🚀 ArduPilot Package Checker
+# 🚀 ArduPilot Package Checker Sample1
 이 프로젝트는 ArduPilot 펌웨어 관련 작업을 돕기 위한 스크립트 모음입니다. 컴파일 환경 점검, 펌웨어 파일 분석, 특정 정보 추출 등의 기능을 제공합니다.
 
 ---
