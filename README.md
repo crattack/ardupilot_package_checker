@@ -24,3 +24,15 @@ $ bash firmware_analysis.sh
 ```bash
 $ python3 extract_gps.py
 ```
+
+# 🚀 ArduPilot Package Checker Sample2**
+이 프로젝트는 PX4 공개 펌웨어 분석을 위한 샘플을 올려 드립니다.
+
+---
+## 미션은 다음과 같습니다.
+
+### 1) meta data 추출
+
+### 2) bin 파일 추출 
+
+### 3) 기본 정보 추출 IP/GPS/펌웨어
