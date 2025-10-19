@@ -31,8 +31,8 @@ $ python3 extract_gps.py
 ---
 ## 미션은 다음과 같습니다.
 
-### meta data 추출
+### 1) meta data 추출
 
-### bin 파일 추출 
+### 2) bin 파일 추출 
 
-### 기본 정보 추출 IP/GPS/펌웨어
+### 3) 기본 정보 추출 IP/GPS/펌웨어
