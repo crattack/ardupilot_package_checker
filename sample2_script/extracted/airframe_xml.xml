@@ -1,0 +1,113 @@
+<airframes>
+  <version>1</version>
+  <airframe_version_major>1</airframe_version_major>
+  <airframe_version_minor>1</airframe_version_minor>
+  <airframe_group name="Airship" image="Airship" />
+  <airframe_group name="Autogyro" image="Autogyro" />
+  <airframe_group name="Balloon" image="Balloon" />
+  <airframe_group name="Dodecarotor cox" image="DodecaRotorXCoaxial" />
+  <airframe_group name="Helicopter" image="Helicopter" />
+  <airframe_group name="Hexarotor +" image="HexaRotorPlus">
+    <airframe name="Generic Hexarotor + geometry" id="7001" maintainer="Lorenz Meier &lt;lorenz@px4.io&gt;">
+      <class>Copter</class>
+      <maintainer>Lorenz Meier &lt;lorenz@px4.io&gt;</maintainer>
+      <type>Hexarotor +</type>
+    </airframe>
+  </airframe_group>
+  <airframe_group name="Hexarotor Coaxial" image="Y6B" />
+  <airframe_group name="Hexarotor x" image="HexaRotorX">
+    <airframe name="Generic Hexarotor x geometry" id="6001" maintainer="Lorenz Meier &lt;lorenz@px4.io&gt;">
+      <class>Copter</class>
+      <maintainer>Lorenz Meier &lt;lorenz@px4.io&gt;</maintainer>
+      <type>Hexarotor x</type>
+    </airframe>
+  </airframe_group>
+  <airframe_group name="Octorotor +" image="OctoRotorPlus">
+    <airframe name="Generic Octocopter + geometry" id="9001" maintainer="Lorenz Meier &lt;lorenz@px4.io&gt;">
+      <class>Copter</class>
+      <maintainer>Lorenz Meier &lt;lorenz@px4.io&gt;</maintainer>
+      <type>Octorotor +</type>
+    </airframe>
+  </airframe_group>
+  <airframe_group name="Octorotor Coaxial" image="OctoRotorXCoaxial">
+    <airframe name="Generic 10&quot; Octo coaxial geometry" id="12001" maintainer="Lorenz Meier &lt;lorenz@px4.io&gt;">
+      <class>Copter</class>
+      <maintainer>Lorenz Meier &lt;lorenz@px4.io&gt;</maintainer>
+      <type>Octorotor Coaxial</type>
+      <output name="Motor1">motor 1</output>
+      <output name="Motor2">motor 2</output>
+      <output name="Motor3">motor 3</output>
+      <output name="Motor4">motor 4</output>
+      <output name="Motor5">motor 5</output>
+      <output name="Motor6">motor 6</output>
+      <output name="Motor7">motor 7</output>
+      <output name="Motor8">motor 8</output>
+    </airframe>
+  </airframe_group>
+  <airframe_group name="Octorotor x" image="OctoRotorX">
+    <airframe name="Generic Octocopter X geometry" id="8001" maintainer="Lorenz Meier &lt;lorenz@px4.io&gt;">
+      <class>Copter</class>
+      <maintainer>Lorenz Meier &lt;lorenz@px4.io&gt;</maintainer>
+      <type>Octorotor x</type>
+    </airframe>
+  </airframe_group>
+  <airframe_group name="Quadrotor +" image="QuadRotorPlus" />
+  <airframe_group name="Quadrotor H" image="QuadRotorH" />
+  <airframe_group name="Quadrotor x" image="QuadRotorX">
+    <airframe name="Generic Quadcopter" id="4001" maintainer="Lorenz Meier &lt;lorenz@px4.io&gt;">
+      <class>Copter</class>
+      <maintainer>Lorenz Meier &lt;lorenz@px4.io&gt;</maintainer>
+      <type>Quadrotor x</type>
+    </airframe>
+    <airframe name="Generic 250 Racer" id="4050" maintainer="Lorenz Meier &lt;lorenz@px4.io&gt;">
+      <class>Copter</class>
+      <maintainer>Lorenz Meier &lt;lorenz@px4.io&gt;</maintainer>
+      <type>Quadrotor x</type>
+    </airframe>
+  </airframe_group>
+  <airframe_group name="Simulation" image="AirframeSimulation" />
+  <airframe_group name="Tricopter Y+" image="YPlus" />
+  <airframe_group name="Flying Wing" image="FlyingWing">
+    <airframe name="Generic Flying Wing" id="3000" maintainer="John Doe &lt;john@example.com&gt;">
+      <class>Plane</class>
+      <type>Flying Wing</type>
+    </airframe>
+  </airframe_group>
+  <airframe_group name="Plane A-Tail" image="PlaneATail">
+    <airframe name="Applied Aeronautics Albatross" id="2106" maintainer="Andreas Antener &lt;andreas@uaventure.com&gt;">
+      <class>Plane</class>
+      <maintainer>Andreas Antener &lt;andreas@uaventure.com&gt;</maintainer>
+      <type>Plane A-Tail</type>
+      <output name="Motor1">throttle</output>
+      <output name="Servo1">aileron right</output>
+      <output name="Servo2">aileron left</output>
+      <output name="Servo3">v-tail right</output>
+      <output name="Servo4">v-tail left</output>
+      <output name="Servo5">wheel</output>
+      <output name="Servo6">flaps right</output>
+      <output name="Servo7">flaps left</output>
+    </airframe>
+  </airframe_group>
+  <airframe_group name="Simulation" image="AirframeSimulation" />
+  <airframe_group name="Standard Plane" image="Plane">
+    <airframe name="Generic Standard Plane" id="2100" maintainer="John Doe &lt;john@example.com&gt;">
+      <class>Plane</class>
+      <type>Standard Plane</type>
+    </airframe>
+  </airframe_group>
+  <airframe_group name="Rover" image="Rover">
+    <airframe name="Generic Ground Vehicle (Ackermann)" id="50000" maintainer="">
+      <class>Rover</class>
+      <maintainer />
+      <type>Rover</type>
+      <output name="Motor1">throttle</output>
+      <output name="Servo1">steering</output>
+    </airframe>
+  </airframe_group>
+  <airframe_group name="Underwater Robot" image="AirframeUnknown" />
+  <airframe_group name="Vectored 6 DOF UUV" image="Vectored6DofUUV" />
+  <airframe_group name="Simulation" image="AirframeSimulation" />
+  <airframe_group name="Standard VTOL" image="VTOLPlane" />
+  <airframe_group name="VTOL Tailsitter" image="AirframeUnknown" />
+  <airframe_group name="VTOL Tiltrotor" image="VTOLTiltRotor" />
+</airframes>

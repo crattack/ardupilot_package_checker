@@ -1,0 +1,16 @@
+{
+  "board_id": 9,
+  "magic": "PX4FWv1",
+  "description": "Firmware for the PX4FMUv2 board",
+  "build_time": 1726676808,
+  "summary": "PX4FMUv2",
+  "version": "0.1",
+  "image_size": 1007021,
+  "image_maxsize": 1032192,
+  "git_identity": "v1.15.0",
+  "board_revision": 0,
+  "git_hash": "30e763b6780061d70a14894e3e8b06e6a656f9b8",
+  "parameter_xml_size": 578186,
+  "mav_autopilot": 12,
+  "airframe_xml_size": 5366
+}
